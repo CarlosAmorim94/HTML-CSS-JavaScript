@@ -1,6 +1,6 @@
-# CSS básico - Anna Bella
+# CSS básico - TecnoBlog
  
- Um exercício sobre o básico de CSS:
+ Mais um exercício sobre o básico de CSS:
  Formatação básica de imagens, links e textos
 
  Repositório criado para acompanhar meus primeiros passos em HTML e CSS.
