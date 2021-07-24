@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Home</title>
+        <title>Brasil</title>
     </head>
-    <body class="brasil">
-        <div id="container">
-            <div id="topo">
+    <body id="duas-colunas" class="brasil">
+        <div id="container"> <!--Inicio do container-->
+            <div id="topo"><!--Inicio do Topo-->
 
                 <h1 class="logo">Noticias Cidade</h1>
                 <ul id="navegacao">
@@ -36,11 +36,92 @@
                     </li>
                 </ul>
 
-            </div>
-                
-            
+            </div><!--Fim do Topo-->
+            <div id="conteudo"> <!--Inicio do conteúdo-->
+                <div id="primario"> <!--Ínicio da coluna primária-->
+                    <div class="caixa destaque">
+                        <h2>Destaques</h2>
+                        <div class="caixa-conteudo">
+                            <h3>PReços de notebooks disparam!</h3>
+                            <img class="imagem-principal" src="imagens/tecnologia.jpg" width="100%" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="">Leia mais!</a>
+                        </div>
+                        <div class="caixa-conteudo">
+                            <h3>Nova Legislação</h3>
+                            <img class="imagem-principal" src="imagens/cidade.jpg" width="100%" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a href="">Leia mais!</a>
+                        </div>
+                        <div class="caixa">
+                            <h2>Mundo</h2>
+                                <div class="caixa-conteudo">
+                                    <ul id="lista-noticias">
+                                        <li>
+                                            <a href="">
+                                                <img src="imagens/doutor.jpg" width="80">
+                                                <h3>Covid-19</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="imagens/billgates.jpg" width="80">
+                                                <h3>Bill Gates</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetu.</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="imagens/tecnologia.jpg" width="80" height="60">
+                                                <h3>Tecnologia</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
 
+                    </div>
+                </div> <!--Fim da coluna primária-->
+                <div id="lateral"><!--Ínicio da coluna lateral-->
+                    <div class="caixa">
+                        <h2>Entrevistas</h2>
+                        <div class="caixa-conteudo">
+                            <ul>
+                                <li><a href="">Carlos Amorim</a></li>
+                                <li><a href="">Reinaldo Ferreira</a></li>
+                                <li><a href="">Danielle Firmino</a></li>
+                                <li><a href="">Sophia Amorim</a></li>
+                                <li><a href="">Mark Zuckerberg</a></li>
+                                <li><a href="">Elon Musk</a></li>
+                                <li><a href="">Bill Gates</a></li>
 
-        </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa">
+                        <h2>News</h2>
+                        <div class="caixa-conteudo">
+                            <form>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input id="email" type="text" name="email" placeholder="Digite seu e-mail">
+                                </div>
+                                <div>
+                                    <input class="submit" type="submit" value="Cadastrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!--Fim da coluna lateral-->
+            </div><!--Fim do conteúdo-->
+        </div><!--Fim do container-->
+        <div id="rodape"><!--Inicio do rodapé-->
+            &copy; Copyright 2000-2021 Notícias cidade.
+        </div><!--Fim do rodapé-->
     </body>
 </html>
