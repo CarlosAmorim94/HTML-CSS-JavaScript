@@ -7,4 +7,5 @@
  Iniciante em desenvolvimento WEB.
  Os exemplos desse repositório foram feitos conforme desafios do curso "Desenvolvimento WEB completo 2021 + 20 projetos + 20 cursos" do professor Jamilton Damasceno na Udemy
  
- ![Tecnoblog](https://user-images.githubusercontent.com/83739628/125869029-7fab4c5e-80b4-45da-8d1a-5936ffe733ec.png)
+![127 0 0 1_5500_3%C2%BA%20Projeto%20-%20Tecnoblog_index html](https://user-images.githubusercontent.com/83739628/128957825-855fdf0d-50a7-48e8-8ce4-f7a910175baf.png)
+
