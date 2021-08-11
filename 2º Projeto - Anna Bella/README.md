@@ -7,4 +7,4 @@
  Iniciante em desenvolvimento WEB.
  Os exemplos desse repositório foram feitos conforme desafios do curso "Desenvolvimento WEB completo 2021 + 20 projetos + 20 cursos" do professor Jamilton Damasceno na Udemy
  
- ![Anna Bella](https://user-images.githubusercontent.com/83739628/125868939-1b6f3029-20ce-4749-a436-08834b73c673.png)
+![127 0 0 1_5500_2%C2%BA%20Projeto%20-%20Anna%20Bella_campanhas-publicitarias html](https://user-images.githubusercontent.com/83739628/128957764-8c9f6412-4eb7-4a44-8711-51df6a1c9187.png)
