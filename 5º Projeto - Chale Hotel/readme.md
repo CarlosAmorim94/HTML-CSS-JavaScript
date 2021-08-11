@@ -7,4 +7,4 @@
  
  Os exemplos desse repositório foram feitos conforme desafios do curso "Desenvolvimento WEB completo 2021 + 20 projetos + 20 cursos" do professor Jamilton Damasceno na Udemy
  
-![chale](https://user-images.githubusercontent.com/83739628/127073675-45080cb6-da93-49ff-b267-8399136cebfb.png)
+![127 0 0 1_5500_5%C2%BA%20Projeto%20-%20Chale%20Hotel_index html](https://user-images.githubusercontent.com/83739628/128957924-5964cd88-3360-48f0-aed8-e3e3de150f58.png)
