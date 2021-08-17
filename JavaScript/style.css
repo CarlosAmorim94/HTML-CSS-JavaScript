@@ -1,0 +1,21 @@
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+    color: white;
+}
+
+#teAmo {
+    display: none;
+    color: red;
+}

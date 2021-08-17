@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1 id="titulo" onclick="clicou()">Testando o botão</h1>
+
+    <button onclick="clicou()">Clique em mim</button>
+    <button onclick="trocarTexto()">Trocar texto do H1</button>
+    <button onclick="this.innerHTML='Deu Certo!'">Trocar texto do botão</button>
+    <br><br><br>
+    <button onmouseover="passou()" onmouseout="saiu()">Passe o mouse!</button>
+
+    <input type="text" onkeyup="pressionou(event)" id="campo">
+    <br><br><br>
+    <button onclick="vermelho()">Vermelho</button>
+    <button onclick="azul()">Azul</button>
+    <button onclick="verde()">Verde</button>
+    <button onclick="preto()">Preto</button>
+
+    <br><br><br>
+    <div id="teAmo">
+        
+        SEGREDO REVELADO!
+    </div>
+    <button onclick="mostrar(this)">Mostrar texto escondido</button>
+
+
+
+    <script src="Button-collor.js"></script>
+</body>
+</html>
