@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Menu de navegação</title>
+    <style>
+    body {
+        background:#EEE;
+    }
+    aside {
+        position:fixed;
+        top:0;
+        right:0;
+        z-index:999;
+        display:flex;
+    }
+    #menu-opener {
+        width:40px;
+        height:40px;
+        cursor:pointer;
+        margin-top:10px;
+        margin-right:10px;
+    }
+    #menu-area {
+        width:0px;
+        height:100vh;
+        background:#ccc;
+        overflow-x:hidden;
+        overflow-y:auto;
+        transition: all ease .5s;
+    }
+    #menu-area ul, #menu-area li {
+        padding:0;
+        list-style:none;
+    }
+    #menu-area li {
+        display:block;
+        padding:10px;
+        color:#555;
+        cursor:pointer;
+    }
+    #menu-area li:hover {
+        background:#DDD;
+    }
+
+    </style>
+</head>
+<body>
+<h1 id="titulo">Seja bem vindo(a)</h1>
+<aside>
+    <div id="menu-opener" onclick="clicou()">
+        <img src="img/menu.png" width="36">
+    </div>
+    <div class="menu-area" id="menu-area">
+        <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+</aside>
+<div id="dia"></div>
+
+<script src="JavaScript/nav-menu.js"></script>
+</body>
+</html>
