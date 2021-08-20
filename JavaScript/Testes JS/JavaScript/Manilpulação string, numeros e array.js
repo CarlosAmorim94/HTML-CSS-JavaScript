@@ -70,3 +70,61 @@ console.log(resposta4)
 
 
 /* __________________ARRAY_____________________*/
+
+let lista = ['Ovo', 'Macarrão', 'Farinha', 'Arroz']
+let lista2 = ['Presunto', 'Mussarela', 'Pão', 'Café']
+
+// Transformar array em String
+let res1 = lista.toString()
+let res2 = lista.join('-') // O que estiver dentro do parâmetro será usado no meio dos itens da string
+console.log(res1)
+console.log(res2)
+
+// Filtro dentro do Array
+let res3 = lista.indexOf('Arroz')
+console.log(res3)
+
+// Remover o último item do array
+lista.pop()
+let res4 = lista
+console.log(res4)
+
+//Remover o primeiro  item do array
+lista.shift()
+let res5 = lista
+console.log(res5)
+
+// Adicionar um novo iten no array
+lista.push('Feijão')
+let res6 = lista
+console.log(res6)
+
+// Trocar um item na Array
+lista[0] = 'Manteiga'  // Trocar 'Ovo' por 'Manteiga'
+let res7 = lista
+console.log(res7)
+
+// Deletar um item do Array
+lista.splice(1 , 1) // primeiro parametro é qual o item remover e parâmetro 2 são quantos itens quer remover
+let res8 = lista
+console.log(res8)
+
+//Concatenar 2 arrays
+let res9 = lista.concat(lista2)
+console.log(res9)
+
+// Oredenar o array em ordem alfabética A --> Z
+lista.short()
+let res10 = lista
+console.log(res10)
+
+// Oredenar o array em ordem alfabética Z --> A
+lista.short()
+lista.reverse() // Se não colocar o .short() ele vai reverter do jeito que está
+let res11 = lista
+console.log(res11)
+
+// 
+lista.short()
+let res10 = lista
+console.log(res10)
