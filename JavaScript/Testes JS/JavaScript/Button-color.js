@@ -53,3 +53,4 @@ function mostrar(elemento) {
     elemento.style.display = "none"
     document.getElementById('teAmo').style.display = "block"
 }
+

@@ -2,7 +2,7 @@
 
 let nome = 'Carlos Amorim'
 
-//Quantos caracteres um string tem?
+//Quantos caracteres uma string tem?
 let resultado1 = nome.length;
 console.log(resultado1)
 
@@ -73,6 +73,8 @@ console.log(resposta4)
 
 let lista = ['Ovo', 'Macarrão', 'Farinha', 'Arroz']
 let lista2 = ['Presunto', 'Mussarela', 'Pão', 'Café']
+let lista3 = ['45', '12', '41', '5']
+let lista4 = []
 
 // Transformar array em String
 let res1 = lista.toString()
@@ -124,7 +126,65 @@ lista.reverse() // Se não colocar o .short() ele vai reverter do jeito que est�
 let res11 = lista
 console.log(res11)
 
-// 
-lista.short()
-let res10 = lista
-console.log(res10)
+// mapear o array e fazer função em cada item
+lista4 = lista3.map( function(item) {
+    return item * 2
+})
+let res12 = lista4
+console.log(res12)
+
+// Filtro True e False item por item
+lista4 = lista3.filter( function(item) {
+    if (item < 20){
+        return true
+    } else {
+        return false
+    }
+})
+let res13 = lista4
+console.log(res13)
+
+// Filtro de todos os itens de uma vez, o coletivo
+lista4 = lista3.every( function(item) {
+    if (item < 20){
+        return true
+    } else {
+        return false
+    }
+})
+let res14 = lista4
+console.log(res14)
+
+// Filtro de item, se pelo menos um item estiver na condição proposta
+lista4 = lista3.some( function(item) {
+    if (item < 20){
+        return true
+    } else {
+        return false
+    }
+})
+let res15 = lista4
+console.log(res15)
+
+// Procurar algum valor na array, retorna o item
+lista4 = lista3.find( function(item) {
+    if (item == 16){
+        return true
+    } else {
+        return false
+    }
+})
+let res16 = lista4
+console.log(res16)
+
+// Procurar algum valor na array, retorna a posição do item
+lista4 = lista3.findIndex( function(item) {
+    if (item == 16){
+        return true
+    } else {
+        return false
+    }
+})
+let res17 = lista4
+console.log(res17)
+
