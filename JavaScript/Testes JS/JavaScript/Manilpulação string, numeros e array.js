@@ -187,4 +187,3 @@ lista4 = lista3.findIndex( function(item) {
 })
 let res17 = lista4
 console.log(res17)
-
