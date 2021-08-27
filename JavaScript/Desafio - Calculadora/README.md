@@ -1,10 +1,7 @@
-# Training HTML, CSS and JavaScript
+# Training JavaScript and Bootstrap
 
- Primeiros passos em HTML, CSS e Javascript
+Desenvolvimento de uma calculadora, feita com JavaScript e Bootstrap.
+Exercícios do curso "Desenvolvimento WEB completo 2021 + 20 projetos + 20 cursos" do Prof. Jorge Santana
 
- Repositório criado para acompanhar meus primeiros passos em HTML, CSS e JavaScript.
- 
- Iniciante em desenvolvimento WEB.
- Os exemplos desse repositório foram feitos conforme desafios do curso "Desenvolvimento WEB completo 2021 + 20 projetos + 20 cursos" do professor Jamilton Damasceno na Udemy
+![github](https://user-images.githubusercontent.com/83739628/131052251-39aaf276-df5a-4ff3-8966-e46faf84606c.png)
 
-![image](https://user-images.githubusercontent.com/83739628/128277797-e054fba8-74af-4f50-864d-641334cabb9c.png)
