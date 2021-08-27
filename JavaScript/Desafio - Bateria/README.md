@@ -1,10 +1,6 @@
-# Training HTML, CSS and JavaScript
+# Training JavaScript
 
- Primeiros passos em HTML, CSS e Javascript
+Desenvolvimento de uma "bateria" para tocar e fazer seus próprios sons! com reprodução automática no final conforme você escolher as teclas! 🎶
 
- Repositório criado para acompanhar meus primeiros passos em HTML, CSS e JavaScript.
- 
- Iniciante em desenvolvimento WEB.
- Os exemplos desse repositório foram feitos conforme desafios do curso "Desenvolvimento WEB completo 2021 + 20 projetos + 20 cursos" do professor Jamilton Damasceno na Udemy
+![K8L7jx](https://user-images.githubusercontent.com/83739628/131052860-b5ee09b7-240a-416c-9e00-54c0096ecb0f.gif)
 
-![image](https://user-images.githubusercontent.com/83739628/128277797-e054fba8-74af-4f50-864d-641334cabb9c.png)
